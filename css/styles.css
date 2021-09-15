@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  .clearfix {
+    float: none;
+    clear: both;
+  }
+  body {
+    background: url("../img/fondo.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  #global {
+    width: 65%;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 30px;
+    background: white;
+    box-shadow: 0px 0px 0px 1px gray;
+    text-align: center;
+  }
+  #logo {
+    font-family: 'Segoe UI';
+    font-size: 50px;
+    letter-spacing: 6px;
+    line-height: 80px;
+    background: #2f78d6;
+    color: white;
+    text-align: center;
+    width: 450px;
+    height: 80px;
+    margin-bottom: 20px;
+    float: left;
+    text-transform: uppercase;
+  }
+  #menu {
+    font-family: 'Segoe UI';
+    background: #333;
+    font-size: 18px;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+  }
+  #menu ul {
+    display: flex;
+    line-height: 46px;
+    list-style: none;
+  }
+  #menu ul li {
+    text-align: center;
+    height: 46px;
+    transition: all 300ms;
+  }
+  #menu ul li:hover {
+    background: #2f78d6;
+  }
+  #menu ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #bios {
+    float: center;
+    font-family: 'Segoe UI';
+  }
+  
+ #bios table{
+    border-spacing: 40px;
+    width: 100%;
+    table-layout: auto;
+    vertical-align:text-top;
+ }
+
+  .bio {
+    padding: 0px;
+    float: top;
+    vertical-align: top;
+  }
+
+  .bio .date {
+    display: block;
+    color: gray;
+    margin-top: 10px;
+  }
+
+  .bio .date {
+    display: block;
+    color: gray;
+    margin-top: 10;
+  }
+
+  .bio p{
+      text-align: justify;
+      font-family: 'Segoe UI';
+      margin-top: 10px;
+  }
+
+  .button-more {
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    background: #15178b;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 70px;
+  }
+
+  #contenido {
+    font-family: 'Segoe UI';
+    text-align: center;
+  }
+
+  #contenido h4 {
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+  }
+
+  #contenido img {
+    width: 220px;
+    height: 320px;
+  } 
+
+  #contenido p {
+    float: center;
+  }
+
+  #contenido form{
+    margin-top: 20px;
+}
+
+  #contador {
+    font-family: 'Segoe UI';
+    text-align: center;
+  }
+
+  #contador img{
+      width: 50%;
+  }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <title>TROYANOS</title>
+    <script src="js/formulaGeneral.js"></script>
+</head>
+
+<body>
+    <!--Contenedor Global-->
+    <section id="global">
+        <!--Contenido-->
+        <header>
+            <div id="logo">
+                TROYANOS
+            </div>
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="formulaGeneral.html">Formula general</a></li>
+                    <li><a href="serie.html">Serie</a></li>
+                    <li><a href="contador.html">Contador</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="contenido">
+            <br>
+            <h1>Formula General</h1>
+            <p>
+                <label for="a">Variable a= </label>
+                <input type="text" id="a" placeholder="ax2">
+            </p>
+            <p>
+                <label for="b">Variable b= </label>
+                <input type="text" id="b" placeholder="bx">
+            </p>
+            <p>
+                <label for="c">Variable c= </label>
+                <input type="text" id="c" placeholder="c">
+            </p>
+            <script src="js/formulaGeneral.js"></script>
+            <br>
+            <button onclick="formulaGeneral();">Enviar variables</button>
+            <br>
+            <label id="x1"></label>
+            <br>
+            <label id="x2"></label>
+        </section>
+    </section>
+</body>
+
+</html>
